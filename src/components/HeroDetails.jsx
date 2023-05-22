@@ -2,6 +2,8 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { fetchHero } from "../lib/utils";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 const HeroDetails = () => {
   const [hero, setHero] = useState();
@@ -18,7 +20,8 @@ const HeroDetails = () => {
 
   return (
     <div className="container large">
-      <div className="hero__details-container">
+      <Header></Header>
+      <div className="hero__details-container white">
         <img
           src={`${hero.thumbnail.path}.${hero.thumbnail.extension}`}
           alt="hero image full size"
@@ -52,6 +55,7 @@ const HeroDetails = () => {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

@@ -99,10 +99,11 @@ form input {
 }
 
 .url {
-  background-color: #fff;
+  background-color: red;
+  color: white;
   border-radius: 10px;
   padding: 10px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 14px;
 }
 
@@ -204,6 +205,7 @@ form input {
 .hero__details {
   flex: 1;
   min-width: 35ch;
+  padding-bottom: 10px;
 }
 
 .hero__details li {
