@@ -104,7 +104,7 @@ form input {
   border-radius: 10px;
   padding: 10px;
   font-family: "Courier New", Courier, monospace;
-  font-size: 14px;
+  font-size: 13.5px;
 }
 
 /* Navbar */
@@ -206,6 +206,7 @@ form input {
   flex: 1;
   min-width: 35ch;
   padding-bottom: 10px;
+  padding-right: 10px;
 }
 
 .hero__details li {
